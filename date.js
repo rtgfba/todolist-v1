@@ -17,8 +17,8 @@ return today.toLocaleDateString("en-US", options );
 
 exports.getDay = function (){
 
-    let today = new Date();
-    let options = {
+    const today = new Date();
+    const options = {
         weekday: "long",  
     };
     
