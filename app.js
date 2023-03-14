@@ -42,7 +42,7 @@ app.post("/", function(req,res){
   
 });
 
-
+//This gets the info from /work and renders in the info
 app.get("/work",function(req,res){
     res.render("list", {listTitle: "Work List", newListItems: workItems});
 });
